@@ -13,5 +13,3 @@
 
 ### ✅ Data Integrity & Validation
 - Constraints ensure valid email formats and unique phone numbers.
-
-This project showcases database design, stored procedures, triggers, and data validation techniques for an efficient auto repair management system.
