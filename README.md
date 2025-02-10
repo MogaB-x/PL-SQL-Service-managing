@@ -1,8 +1,17 @@
-# PL/SQL system for managing an auto repair service
-The project includes comprehensive database structures with tables for clients, vehicles, procedures, and appointments, incorporating primary and foreign key constraints to ensure relational integrity. 
+# 🚗 PL/SQL Auto Repair Service Management System
+This project includes PL/SQL-based system with tables for clients, vehicles, procedures, and appointments, incorporating primary and foreign key constraints to ensure relational integrity.
 
-## Key functionalities include:
-- Automated appointment scheduling: Triggers handle validation for time overlaps, enforce future-only appointments, and calculate completion times based on procedure durations.
- - Client management: Stored procedures and triggers enforce business rules, such as preventing deletion of clients with pending appointments.
-- Dynamic reporting: Functions calculate service statistics, like the number of oil changes within a given period.
-- Data integrity: Implemented constraints to validate email formats and ensure unique phone numbers.
+## 🛠️ Features
+### 📅 Appointment Scheduling
+- Triggers handle validation for time overlaps, enforce future-only appointments, and calculate completion times based on procedure durations.
+
+### 👥 Client & Vehicle Management
+-  Stored procedures and triggers enforce business rules, such as preventing deletion of clients with pending appointments.
+-  
+### 📊 Dynamic Reporting & Statistics
+-Functions generate service statistics, like the number of oil changes within a given period.
+
+### ✅ Data Integrity & Validation
+- Constraints ensure valid email formats and unique phone numbers.
+
+This project showcases database design, stored procedures, triggers, and data validation techniques for an efficient auto repair management system.
